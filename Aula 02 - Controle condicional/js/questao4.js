@@ -3,7 +3,7 @@
 // Se for válido, deve usar um if/else para informar se o usuário tem 18 anos ou mais (Acesso Liberado) ou menos (Acesso Negado).
 let idade = parseInt(prompt("Digite sua idade:"))
 
-if (idade != "" && idade > 0){
+if (idade !== "" && idade > 0){
     if(idade >= 18){
         console.log("Acesso liberado")
     }else{
